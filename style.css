@@ -31,9 +31,7 @@ header {
 	text-align: center;
 	font-size: 144px;
 	color: #ffffff;
-	margin-top: 1.0em;
-	margin-bottom: 1.0em;
-	min-width: 75%;
+	margin-bottom: 0.25em;
 	margin-left: auto;
 	margin-right: auto;
 }
