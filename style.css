@@ -9,27 +9,6 @@ body   {
     background-color: #151515;
 }
 
-.greytext {
-	font-size: 1em;
-    color: #bcbcbc;
-    font-weight: normal;
-}
-
-/* Text and background color for dark/light mode */
-@media (prefers-color-scheme: light) {
-  body {
-    background-color: #000000;
-  }
-  .greytext {
-  	color: #686868;
-  }
-}
-
-img.title {
-	padding-right: 0.5em;
-	height: 59px;
-}
-
 .column {
     float: left;
     margin-left: 20px;
@@ -61,7 +40,7 @@ header {
 	font-weight: 900;
 	text-align: center;
 	font-size: 84px;
-	color: #942193;
+	color: #003575;
 	margin-top: 1.0em;
 	margin-bottom: 1.0em;
 	min-width: 75%;
@@ -73,49 +52,9 @@ header {
 	font-size: 1.33em;
 }
 
-/* iPhone portrait */
-@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio : 3) {
-	body { font-size: 34px; }
-	img.title { height: 96px; }
-	.column { width: 90%; margin-left: 20px; margin-right: 20px; }
-	.left { width: 90%; max-width: 720px }
-	.right { width: 90%; max-width: 720px }
-	header { font-size: 136px; }
-	.box { font-size: 0.9em; }
-}
-
-/* iPhone landscape */
-@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio : 3) {
-	body { font-size: 13px; }
-	img.title { height: 30px; }
-	.column { width: 90%; margin-left: 20px; margin-right: 20px; }
-	.left { width: 90%; max-width: 720px }
-	.right { width: 90%; max-width: 720px }
-	header { font-size: 43px; }
-	.box { font-size: 0.9em; }
-}
-
-/* iPads portrait */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-device-pixel-ratio : 2) {
-	.column { width: 90%; margin-left: 20px; margin-right: 20px; }
-	.left { width: 90%; max-width: 922px; }
-	.right { width: 90%; max-width: 922px; }
-	.box { font-size: 0.9em; }
-}
-
-/* iPads landscape */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-device-pixel-ratio : 2) {
-	img.title { height: 45px; }
-	.column { width: 90%; margin-left: 20px; margin-right: 20px; }
-	.left { width: 90%; max-width: 922px; }
-	.right { width: 90%; max-width: 922px; }
-	header { font-size: 63px; }
-	.box { font-size: 0.9em; }
-}
-
 h2 {
 	font-size: 1.618em;
-	color: #942193;
+	color:  #003575;
 	margin-top: 2em;
 	margin-bottom: 1em;
 	margin-left: auto;
@@ -128,27 +67,7 @@ h4 {
 	font-weight: bold;
 	margin-top: 1.0em;
 	margin-bottom: 1.0em;
-	color: #942193;
-}
-
-#bronze {
-	color: #945200;
-}
-
-#silver {
-	color: #686868;
-}
-
-#gold {
-	color: #cfb53b;
-}
-
-#platinum {
-	color: #bcbcbc;
-}
-
-#kryponite {
-	color: #942193;
+	color:  #003575;
 }
 
 a  {
@@ -160,7 +79,7 @@ a  {
 .link {
 	font-size:  1.0em;
 	text-decoration: underline;
-	color: #942193;
+	color:  #003575;
 }
 
 a:hover {
@@ -170,7 +89,7 @@ a:hover {
 .blockquote {
 	font-size: 1.33em;
     font-style: italic;
-	color: #942193;
+	color:  #003575;
 	font-weight: normal;
 	padding-left: 1.5em;
 	line-height: 1.5em;
@@ -191,9 +110,9 @@ a:hover {
     clear: both;
 }
 
-.purpletext {
+.bluetext {
 	font-size: 1em;
-	color: #942193;
+	color:  #003575;
 	font-weight: normal;
 }
 
@@ -216,7 +135,7 @@ a:hover {
 }
 
 .eg {
-	color: #942193;
+	color: #003575;
 	padding-left: 2em;
 }
 
@@ -260,7 +179,7 @@ ul > li:before {
     text-align: left;
 	font-weight: 900;
     content: "\30FB";
-	color: #942193;
+	color:  #003575;
 	padding-left: 0;
 	padding-right: 0.5em;
 	display: table-cell;
