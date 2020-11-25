@@ -16,7 +16,7 @@ body   {
 
   .flex-container > div {
     background-color: #ffffff;
-    width: calc(33% - 100px);
+    width: calc(33% - 150px);
     padding: 20px;
     margin: 50px;
     text-align: center;
