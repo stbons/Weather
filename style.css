@@ -6,17 +6,25 @@ body   {
     "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", 
     "Fira Sans", "Droid Sans", "Helvetica Neue", 
     sans-serif;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .column {
     float: left;
+    width: 25%;
     margin-left: 20px;
 	margin-right: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
 	line-height: 1.5em;
 }
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 .left {
     width: 25%;
