@@ -11,12 +11,13 @@ body   {
 .flex-container {
     display: flex;
     flex-direction: row;
-    background-color: #003575;
   }
 
   .flex-container > div {
+    background-color: #003575;
     width: 25%;
     padding: 10px;
+    margin: 10px;
     text-align: center;
   }
 
