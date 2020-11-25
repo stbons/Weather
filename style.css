@@ -12,6 +12,14 @@ body   {
 .flex-container {
     display: flex;
     flex-direction: row;
+    background-color: #003575;
+  }
+
+  .flex-container > div {
+    background-color: #ffffff;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
   }
 
 header {
