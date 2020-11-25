@@ -30,7 +30,8 @@ header {
 	font-weight: 900;
 	text-align: center;
 	font-size: 144px;
-	color: #ffffff;
+    color: #ffffff;
+    margin-top: 0.25em;
 	margin-bottom: 0.25em;
 	margin-left: auto;
 	margin-right: auto;
