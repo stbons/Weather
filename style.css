@@ -16,11 +16,14 @@ body   {
 
   .flex-container > div {
     background-color: #ffffff;
-    width: calc(25% - 40px);
+    width: calc(25% - 100px);
     padding: 10px;
     margin: 10px;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 50px;
+background: linear-gradient(145deg, #003069, #00397d);
+box-shadow:  20px 20px 60px #002d63, 
+             -20px -20px 60px #003d87;
   }
 
 header {
