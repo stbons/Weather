@@ -18,7 +18,7 @@ body   {
     background-color: #ffffff;
     width: calc(25% - 100px);
     padding: 10px;
-    margin: 10px;
+    margin: 50px;
     text-align: center;
     border-radius: 50px;
 background: linear-gradient(145deg, #003069, #00397d);
@@ -40,7 +40,7 @@ header {
 
 h2 {
 	font-size: 2em;
-	color:  #003575;
+	color:  #ffffff;
 	margin-bottom: 1em;
 	margin-left: auto;
 	margin-right: auto;
@@ -52,102 +52,11 @@ h4 {
 	font-weight: bold;
 	margin-top: 1.0em;
 	margin-bottom: 1.0em;
-    color:  #003575;
+    color:  #ffffff;
     line-height: 1em;
 }
 
 img.title {
 	padding-right: 0.5em;
 	height: 59px;
-}
-
-a  {
-	font-size: 1.0em;
-    text-decoration: none;
-    color: #bcbcbc;
-}
-
-.link {
-	font-size:  1.0em;
-	text-decoration: underline;
-	color:  #003575;
-}
-
-a:hover {
-	background-color: #686868;
-}
-
-.blockquote {
-	font-size: 1.33em;
-    font-style: italic;
-	color:  #003575;
-	font-weight: normal;
-	padding-left: 1.5em;
-	line-height: 1.5em;
-}
-
-.bluetext {
-	font-size: 1em;
-	color:  #003575;
-	font-weight: normal;
-}
-
-.it {
-    font-style: italic;
-}
-
-.rm {
-	font-style: normal;
-}
-
-.sc {
-    font-variant: small-caps;
-	font-weight: normal;
-	text-transform: lowercase;
-}
-
-sup {
-	font-size: 0.5em;
-	font-weight: 700;
-}
-
-img {
-	margin-top: 1.0em;
-	max-width: 100%;
-}
-
-img.centre {        
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  max-width:640px;
-  max-width: 100%;
-  max-height: 344px;
-  width: auto;
-  height: auto;
-}
-
-ul {
-	list-style: none;
-	height: 2.0em;
-    line-height: 2.0em;
-	margin-left: -2.0em;
-	display: table;
-}
-
-ul > li {
-    display: table-row;
-    color: #bcbcbc;
-    height: 2.0em;
-    line-height: 2.0em;
-}
-
-ul > li:before {
-    text-align: left;
-	font-weight: 900;
-    content: "\30FB";
-	color:  #003575;
-	padding-left: 0;
-	padding-right: 0.5em;
-	display: table-cell;
 }
