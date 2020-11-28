@@ -10,12 +10,11 @@ body   {
 }
 
 .container {
-    display: table-cell;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+    display: table;
+}
 
 .container > div {
+    display: table-cell;
     background-color: #ffffff;
     width: 500px;
     padding: 20px;
