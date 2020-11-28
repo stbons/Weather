@@ -14,9 +14,9 @@ body   {
 }
 
 .container > div {
-    display: display: inline-block;
+    display: inline-block;
     background-color: #ffffff;
-    width: 400px;
+    width: calc(33% - 150px);
     padding: 20px;
     margin: 50px;
     text-align: center;
