@@ -10,7 +10,7 @@ body   {
     padding-left: 50px;
 }
 
-td {
+td.cell {
     background-color: #ffffff;
     width: 33%;
     padding: 20px 50px 20px 50px;
