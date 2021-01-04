@@ -9,6 +9,11 @@ body   {
     background-color: #ffffff;
 }
 
+tr {
+    margin: 50px;
+    padding: 50px;
+}
+
 td {
     background-color: #ffffff;
     width: calc(33% - 150px);
