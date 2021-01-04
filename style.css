@@ -9,15 +9,7 @@ body   {
     background-color: #ffffff;
 }
 
-.container {
-    display: flex;
-    display: flexbox;
-    display: box;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.container > div {
+td {
     background-color: #ffffff;
     width: calc(33% - 150px);
     padding: 20px;
