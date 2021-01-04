@@ -10,6 +10,11 @@ body   {
     padding-left: 50px;
 }
 
+table { 
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
 tr {
     margin: 50px;
     padding: 50px;
